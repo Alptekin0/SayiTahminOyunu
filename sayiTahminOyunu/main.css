@@ -1,0 +1,166 @@
+.container1 {
+     background-color: black;
+     width: 100%;
+     height: 300px;
+     display: flex;
+     justify-content: center;
+}
+
+.container2 {
+     background-color: black;
+     width: 100%;
+     height: 300px;
+     margin-top: 10px;
+     display: flex;
+}
+
+.container3 {
+     background-color: white;
+     height: 125px;
+     width: 125px;
+     position: absolute;
+     left: 50%;
+     top: calc(300px + 10px / 2);
+     transform: translate(-50%, -50%);
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.kontrolEt {
+     position: absolute;
+     top: 65%;
+     right: 70%;
+     width: 220px;
+     height: 120px;
+     border: solid, white, 3px;
+}
+
+
+.baslik {
+     color: white;
+     padding-top: 120px;
+     display: flex;
+}
+
+.baslik2 {
+     color: white;
+     padding-top: 135px;
+     margin-left: 10px;
+     font-weight: bold;
+}
+
+.skor {
+     color: white;
+     position: absolute;
+     top: 70%;
+     left: 70%;
+}
+
+.tekrarButton {
+     width: auto;
+     height: 45px;
+     position: absolute;
+     left: 3%;
+     top: 20px;
+}
+
+.kontrolEtButton {
+     width: auto;
+     height: 45px;
+     position: absolute;
+     top: 87%;
+     left: 18%;
+}
+
+button {
+     color: white;
+     background-color: rgb(214, 129, 45);
+     border-radius: 15px;
+}
+
+button:hover {
+     background-color: rgb(206, 157, 107);
+     cursor: pointer;
+     border: white;
+     height: 35px;
+}
+
+#Tahmin {
+     background-color: black;
+     border: 0px;
+     width: 215px;
+     height: 115px;
+     color: white;
+     font-size: xx-large;
+     text-align: center;
+}
+
+.basarili {
+     background-color: rgb(8, 241, 8);
+     width: 600px;
+     height: 50px;
+     position: absolute;
+     top: 10%;
+     left: 30%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.basariliP {
+     font-weight: bold;
+     text-align: center;
+}
+
+
+.basarsiz {
+     background-color: rgb(241, 8, 8);
+     width: 600px;
+     height: 50px;
+     position: absolute;
+     top: 10%;
+     left: 30%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.basarisizP {
+     font-weight: bold;
+     text-align: center;
+}
+
+
+
+/*! RESPONSİVE */
+
+@media screen and (min-width: 340px) {
+
+     .container2 {
+          height: 320px;
+     }
+
+     .kontrolEt {
+          width: 85px;
+     }
+
+     #Tahmin {
+          width: 80px;
+     }
+
+     .kontrolEtButton {
+          left: 35%;
+     }
+
+     .basarsiz,
+     .basarili {
+          width: 250px;
+          left: 50px;
+     }
+
+     .skor {
+          left: 50%;
+     }
+}
