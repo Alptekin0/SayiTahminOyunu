@@ -9,5 +9,5 @@ Oyun her başarılı tahmin için skor verir ve en yüksek skoru `localStorage` 
 
 - HTML
 - CSS (Responsive tasarım destekli)
-- Vanilla JavaScript (pure JS, framework kullanılmadı)
+- JavaScript (framework kullanılmadı)
 - localStorage (Tarayıcıda skor takibi için)
