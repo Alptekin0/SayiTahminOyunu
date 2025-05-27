@@ -11,3 +11,6 @@ Oyun her başarılı tahmin için skor verir ve en yüksek skoru `localStorage` 
 - CSS (Responsive tasarım destekli)
 - JavaScript (framework kullanılmadı)
 - localStorage (Tarayıcıda skor takibi için)
+
+
+oyuna direkt olarak aşağıdaki linkten ulaşabilirsiniz :
