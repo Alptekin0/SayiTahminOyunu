@@ -13,4 +13,6 @@ Oyun her başarılı tahmin için skor verir ve en yüksek skoru `localStorage` 
 - localStorage (Tarayıcıda skor takibi için)
 
 
-oyuna direkt olarak aşağıdaki linkten ulaşabilirsiniz :
+oyuna direkt olarak aşağıdaki linkten ulaşabilirsiniz :  
+
+[Oyun linki](https://alptekin0.github.io/SayiTahminOyunu/sayiTahminOyunu/)  
